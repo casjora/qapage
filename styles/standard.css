@@ -143,8 +143,8 @@ nav a:hover{
     background-color: transparent;
     margin-left: 2%;
     margin-top: 5px;
-    width: 15%;
-    max-width: 80px;
+    width: 30%;
+    max-width: 150px;
 }
 .logo:hover{
     scale: 1.2;
