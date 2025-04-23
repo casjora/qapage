@@ -2,95 +2,222 @@ document.addEventListener('DOMContentLoaded', () => { // Ensure DOM is loaded
 
   const qas = [
       {
-          qaName: "Aba Nigeria",
-          location: "San Pedro Sula, Honduras",
+          qaName: "Carlos Figueroa",
+          location: "Tegucigalpa, Honduras",
           started: "2005, August, 7",
           Position: "QA Team Leader",
-          pictureLoc: "images/qa1.jpg",
-          account: ["Kelly","Cyracom","iTi"], // Array of accounts
+          pictureLoc: "images/qa-photos/carlos-f.jpg",
+          account: ["Kelly Services","Cyracom","iTi","CLI"], // Array of accounts
           funFact: "Is secretly amazing at salsa dancing and loves hiking near Lake Yojoa."
       },
       {
-          qaName: "Maria Garcia",
-          location: "Mexico City, Mexico",
+          qaName: "Sarah Zelaya",
+          location: "Tegucigalpa, Honduras",
           started: "2010, March, 15",
           Position: "QA Team Leader",
-          pictureLoc: "images/qa2.jpg",
-          account: ["Equiti"],
+          pictureLoc: "images//qa-photos/sarah-z.jpg",
+          account: ["Equiti","CLI"],
           funFact: "Collects vintage postcards from every city visited. Has over 300!"
       },
       {
-          qaName: "John Smith",
-          location: "London, UK",
+          qaName: "Gabriela Diaz",
+          location: "El Paraiso, Honduras",
           started: "2012, November, 22",
           Position: "QA Analyst",
-          pictureLoc: "images/qa3.jpg",
-          account: ["Cyracom","iTi"],
+          pictureLoc: "images//qa-photos/gaby-d.jpg",
+          account: ["Equiti"],
           funFact: "Can identify over 50 types of tea by smell alone. Favorite is Earl Grey."
       },
       {
-          qaName: "Priya Sharma",
-          location: "Bangalore, India",
-          started: "2018, June, 1",
+          qaName: "Maria Contreras",
+          location: "Monteria, Colombia",
+          started: "2025, April, 7",
           Position: "QA Analyst",
-          pictureLoc: "images/qa4.jpg",
-          account: ["Cyracom"],
+          pictureLoc: "images//qa-photos/maria-c.jpg",
+          account: ["Equiti"],
           funFact: "Is a regional Chess champion and makes incredibly spicy biryani."
       },
       {
-          qaName: "Kenji Tanaka",
-          location: "Tokyo, Japan",
-          started: "2015, September, 10",
+          qaName: "Daniela Gonzalez",
+          location: "Cartagena, Colombia",
+          started: "2025, April, 7",
           Position: "QA Analyst",
-          pictureLoc: "images/qa5.jpg",
+          pictureLoc: "images//qa-photos/daniela-g.jpg",
           account: ["Equiti"],
           funFact: "Practices calligraphy and builds intricate Gundam models on weekends."
       },
       {
-          qaName: "Fatima Rossi",
-          location: "Rome, Italy",
-          started: "2019, February, 28",
+          qaName: "Valentina Valencia",
+          location: "Armenia, Colombia",
+          started: "2024, May, 02",
           Position: "QA Analyst",
-          pictureLoc: "images/qa6.jpg",
-          account: ["Kelly"],
+          pictureLoc: "images//qa-photos/valentina-v.jpg",
+          account: ["Equiti"],
           funFact: "Speaks conversational Italian and makes the best homemade pasta carbonara."
       },
       {
-          qaName: "David Miller",
-          location: "Sydney, Australia",
-          started: "2011, July, 4",
+          qaName: "Gregory Ermoff",
+          location: "San Lorenzo, Paraguay",
+          started: "2024, May, 02",
           Position: "QA Analyst",
-          pictureLoc: "images/qa7.jpg",
-          account: ["Kelly","Equiti"],
+          pictureLoc: "images//qa-photos/gregory.jpg",
+          account: ["Equiti"],
           funFact: "Once surfed with dolphins at Byron Bay (and has photos to prove it!)."
       },
       {
-          qaName: "Sofia Petrova",
-          location: "Kyiv, Ukraine",
-          started: "2021, January, 19",
+          qaName: "Jennifer Malaver",
+          location: "Bogota, Colombia",
+          started: "2024, May, 02",
           Position: "QA Analyst",
-          pictureLoc: "images/qa8.jpg",
+          pictureLoc: "images//qa-photos/jennifer.jpg",
           account: ["Equiti"],
           funFact: "Expert baker known locally for her intricate Pysanky egg designs."
       },
       {
-          qaName: "Ahmed Hassan",
-          location: "Cairo, Egypt",
+          qaName: "Rene Enamorado",
+          location: "San Pedro Sula, Honduras",
           started: "2016, May, 5",
           Position: "QA Analyst",
-          pictureLoc: "images/qa9.jpg",
+          pictureLoc: "images//qa-photos/rene.jpg",
           account: ["Equiti"],
           funFact: "Fascinated by ancient history; volunteers at the Egyptian Museum on Saturdays."
       },
       {
-          qaName: "Isabelle Dubois",
-          location: "Paris, France",
+          qaName: "Hillary Cohen",
+          location: "San Salvador, El Salvador",
           started: "2013, October, 31",
           Position: "QA Analyst",
-          pictureLoc: "images/qa10.jpg",
-          account: ["Kelly"],
+          pictureLoc: "images//qa-photos/hillary.jpg",
+          account: ["Equiti"],
           funFact: "Has a small but growing collection of vintage French comic books (bandes dessinées)."
-      }
+      },
+      {
+        qaName: "Juan Guerrero",
+        location: "Bogota, Colombia",
+        started: "2025, February, 03",
+        Position: "QA Analyst",
+        pictureLoc: "images//qa-photos/juan-g.jpg",
+        account: ["Equiti"],
+        funFact: "Has a small but growing collection of vintage French comic books (bandes dessinées)."
+    },
+      {
+          qaName: "Louik Ardila",
+          location: "Bogota, Colombia",
+          started: "2024, May, 02",
+          Position: "QA Analyst",
+          pictureLoc: "images//qa-photos/louik.jpg",
+          account: ["Kelly Services"],
+          funFact: "Has a small but growing collection of vintage French comic books (bandes dessinées)."
+      },
+      {
+          qaName: "Daniel Castillo",
+          location: "San Salvador, El Salvador",
+          started: "2025, Feb, 26",
+          Position: "QA Analyst",
+          pictureLoc: "images//qa-photos/daniel-casti.jpg",
+          account: ["Kelly Services"],
+          funFact: "Has a small but growing collection of vintage French comic books (bandes dessinées)."
+      },
+      {
+          qaName: "Lucia Tabora",
+          location: "Tegucigalpa, Honduras",
+          started: "2024, October, 01",
+          Position: "QA Analyst",
+          pictureLoc: "images//qa-photos/lucia.jpg",
+          account: ["Kelly Services"],
+          funFact: "Has a small but growing collection of vintage French comic books (bandes dessinées)."
+      },
+      {
+          qaName: "Diego Oliva",
+          location: "San Salvador, El Salvador",
+          started: "2024, May, 02",
+          Position: "QA Analyst",
+          pictureLoc: "images//qa-photos/diego.jpg",
+          account: ["Kelly Services"],
+          funFact: "Has a small but growing collection of vintage French comic books (bandes dessinées)."
+      },
+      {
+          qaName: "Gisela Morales",
+          location: "San Salvador, El Salvador",
+          started: "2013, October, 31",
+          Position: "QA Analyst",
+          pictureLoc: "images//qa-photos/gisela.jpg",
+          account: ["Kelly Services"],
+          funFact: "Has a small but growing collection of vintage French comic books (bandes dessinées)."
+      },
+      {
+          qaName: "Nemesis Alvarado",
+          location: "Juticalpa, Honduras",
+          started: "2025, April, 2",
+          Position: "QA Analyst",
+          pictureLoc: "images//qa-photos/nemesis.jpg",
+          account: ["Cyracom"],
+          funFact: "Has a small but growing collection of vintage French comic books (bandes dessinées)."
+      },
+      {
+          qaName: "Oblincks Richmond",
+          location: "Port-au-Prince, Haiti ",
+          started: "2013, October, 31",
+          Position: "QA Analyst",
+          pictureLoc: "images//qa-photos/oblincks.jpg",
+          account: ["Cyracom"],
+          funFact: "Has a small but growing collection of vintage French comic books (bandes dessinées)."
+      },
+      {
+          qaName: "Meylin Velasquez",
+          location: "Comayagua, Honduras",
+          started: "2013, October, 31",
+          Position: "QA Analyst",
+          pictureLoc: "images//qa-photos/meylin.jpg",
+          account: ["Cyracom"],
+          funFact: "Has a small but growing collection of vintage French comic books (bandes dessinées)."
+      },
+      {
+          qaName: "Daniel Castellanos",
+          location: "San Pedro Sula, Honduras",
+          started: "2013, October, 31",
+          Position: "QA Analyst",
+          pictureLoc: "images//qa-photos/dan-caste.jpg",
+          account: ["Cyracom"],
+          funFact: "Has a small but growing collection of vintage French comic books (bandes dessinées)."
+      },
+      {
+          qaName: "Beyson Martinez",
+          location: "San Pedro Sula, Honduras",
+          started: "2013, October, 31",
+          Position: "QA Analyst",
+          pictureLoc: "images//qa-photos/beyson.jpg",
+          account: ["iTi","Cyracom"],
+          funFact: "Has a small but growing collection of vintage French comic books (bandes dessinées)."
+      },
+      {
+          qaName: "Cristina Moreno",
+          location: "Siguatepeque, Honduras",
+          started: "2013, October, 31",
+          Position: "QA Analyst",
+          pictureLoc: "images//qa-photos/alma.jpg",
+          account: ["CQ Fluency","Cyracom"],
+          funFact: "Has a small but growing collection of vintage French comic books (bandes dessinées)."
+      },
+      {
+          qaName: "Ashley Landaverde",
+          location: "Choluteca, Honduras",
+          started: "2013, October, 31",
+          Position: "QA Analyst",
+          pictureLoc: "images//qa-photos/ash-lan.jpg",
+          account: ["CLI"],
+          funFact: "Has a small but growing collection of vintage French comic books (bandes dessinées)."
+      },
+      {
+          qaName: "Rafael Lopez",
+          location: "Tegucigalpa, Honduras",
+          started: "2024, April, 29",
+          Position: "QA Coordinator",
+          pictureLoc: "images//qa-photos/rafa-l.jpg",
+          account: ["Equiti","Cyracom","iTi","Kelly Services","CLI","CQ Fluency"],
+          funFact: "Has a small but growing collection of vintage French comic books (bandes dessinées)."
+      },
+
   ];
 
   const qaContainer = document.querySelector(".img-container");
